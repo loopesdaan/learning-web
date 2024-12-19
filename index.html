@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Empresa de Serviços</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- Cabeçalho -->
+    <header>
+        <div class="container">
+            <h1>Nome da Empresa</h1>
+            <nav>
+                <ul>
+                    <li><a href="#sobre">Sobre</a></li>
+                    <li><a href="#servicos">Serviços</a></li>
+                    <li><a href="#contato">Contato</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Seção Sobre -->
+    <section id="sobre" class="section-about">
+        <div class="container">
+            <h2>Sobre Nós</h2>
+            <p>Somos uma empresa especializada em oferecer soluções inovadoras para o seu negócio. Nossa missão é proporcionar excelência em serviços de qualidade, com foco em resultados e satisfação dos nossos clientes.</p>
+        </div>
+    </section>
+
+    <!-- Seção de Serviços -->
+    <section id="servicos" class="section-services">
+        <div class="container">
+            <h2>Serviços</h2>
+            <div class="service-item">
+                <h3>Consultoria Empresarial</h3>
+                <p>Oferecemos consultoria para ajudar sua empresa a alcançar seus objetivos com estratégias personalizadas.</p>
+            </div>
+            <div class="service-item">
+                <h3>Desenvolvimento de Software</h3>
+                <p>Desenvolvemos soluções de software sob medida para otimizar processos e aumentar a produtividade do seu negócio.</p>
+            </div>
+            <div class="service-item">
+                <h3>Treinamento e Capacitação</h3>
+                <p>Oferecemos treinamentos especializados para equipes e indivíduos, visando o crescimento contínuo e a inovação.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Seção de Contato -->
+    <section id="contato" class="section-contact">
+        <div class="container">
+            <h2>Contato</h2>
+            <p>Entre em contato conosco para saber mais sobre nossos serviços e como podemos ajudar sua empresa a crescer!</p>
+            <form action="mailto:contato@empresa.com" method="post" enctype="text/plain">
+                <label for="nome">Nome:</label>
+                <input type="text" id="nome" name="nome" required>
+                
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+                
+                <label for="mensagem">Mensagem:</label>
+                <textarea id="mensagem" name="mensagem" rows="4" required></textarea>
+                
+                <button type="submit">Enviar</button>
+            </form>
+        </div>
+    </section>
+
+    <!-- Rodapé -->
+    <footer>
+        <div class="container">
+            <p>&copy; 2024 Nome da Empresa. Todos os direitos reservados.</p>
+        </div>
+    </footer>
+
+</body>
+</html>
